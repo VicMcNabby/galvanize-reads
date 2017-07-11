@@ -8,6 +8,7 @@ const bodyParser = require('body-parser');
 const app = express();
 
 const books = require('./api/books')
+const authors = require('./api/authors')
 
 app.use(logger('dev'));
 app.use(bodyParser.json());
@@ -17,6 +18,7 @@ app.use(bodyParser.urlencoded({
 app.use(cookieParser());
 
 app.use("/books", books);
+app.use("/authors", authors);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

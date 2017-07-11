@@ -1,1 +1,1 @@
-![alt tag](https://www.lucidchart.com/documents/edit/a299aba3-beaf-4235-b57c-c600963fb56c#)
+![alt tag](/Users/matthewvictor/workspace/galvanize-reads/Screen Shot 2017-07-11 at 10.31.51 AM.png)
